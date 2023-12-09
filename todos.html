@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atinity Solutions</title>
+    <!-- icons website -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/icons web.png"
+      type="image/x-icon"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/35dd348907.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!-- bagian navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top Regular shadow"
+    >
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center"
+          data-aos="fade-right"
+        >
+          <img
+            src="assets/img/Logo Header.png"
+            alt="Logo"
+            width="60"
+            height="60"
+            class="d-inline-block align-text-top"
+            style="object-fit: cover"
+          />
+          <h2 class="m-0 text-uppercase text-judul">Atinity Solution</h2>
+        </a>
+        <button
+          class="navbar-toggler mt-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarCollapse"
+          data-aos="fade-left"
+        >
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="about us.html" class="nav-item nav-link">About Us</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="todos.html" class="nav-item nav-link active">Todos</a>
+          </div>
+          <button
+            type="button"
+            class="btn get-touch ms-2"
+            onclick="window.location.href='https://www.figma.com/file/QzBmGEdIU1rM72thVn9mjX/Atinity(Website)-(Community)?type=design&node-id=0%3A1&mode=design&t=ttGDDmLSRgSjXpM6-1'"
+          >
+            Get In Touch
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Todos -->
+    <div class="container-todo">
+      <div class="todo" data-aos="flip-up">
+        <h2 class="mb-4 fw-bold text-center text-one">
+          To-Do List <img src="assets/img/icon.png" alt="todos" />
+        </h2>
+        <div class="row-todo justify-content-center">
+          <input type="text" id="input-box" placeholder=" Add your task..." />
+          <button class="btnTodo" onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+
+    <!-- Start Footer -->
+    <section class="container-fluid bg-footer footer">
+      <div class="container text-center">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg" data-aos="fade-up">
+            <img
+              src="assets/img/medsos/linkedin.png"
+              class="rounded"
+              alt="Linkedin"
+            />
+            <img
+              src="assets/img/medsos/GitHub.png"
+              class="rounded"
+              alt="Github"
+            />
+            <img
+              src="assets/img/medsos/upwork.png"
+              class="rounded"
+              alt="Upwork"
+            />
+            <img
+              src="assets/img/medsos/fiverr.png"
+              class="rounded"
+              alt="Fiverr"
+            />
+          </div>
+          <div class="col-lg" data-aos="fade-up">
+            <h3 class="text-center text-email py-2">Keep in Touch</h3>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="email"
+                placeholder="Your Email Address"
+              />
+              <button
+                type="button"
+                class="btn btn-footer position-absolute top-0 end-0 mt-2 me-2"
+              >
+                <i
+                  class="fa-solid fa-envelope-circle-check"
+                  style="color: #924b8f"
+                ></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg fw-bold copyright" data-aos="fade-up">
+            <p>Copyright © 2022 Atinity Solutions</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Todos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
